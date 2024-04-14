@@ -169,7 +169,7 @@ main {
 
 .section-container {
     margin: 10px 0;
-    background-image: url(clouds2.jpg);
+    background-image: url(pictures/clouds2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: var(--wd);
