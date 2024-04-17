@@ -7,4 +7,4 @@ Portfolio for Technical Employment
 
 04/16/2024- Foundational prototyping created for each portfolio category.
 
-![preview pic -prototype](C:\Users\cloud\OneDrive\Desktop\tech-apps\projects\portfolio\pictures\prototyping-pic.png)
+![preview pic for prototype](prototyping-pic.png)
