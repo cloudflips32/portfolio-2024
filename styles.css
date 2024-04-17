@@ -3,7 +3,7 @@
 :root {
     --bg-dark: #092980;
     --bg-light: #0d7bbb;
-    --center: center;
+    --mid: center;
     --left: left;
     --sub: #34c00a7c;
     --main: bisque;
@@ -12,6 +12,8 @@
     --border: 5px bisque solid;
     --vh: 100vh;
     --wd: 100%;
+    --opac: 0.6;
+    --zoom: 110%;
 }
 
 * {
@@ -22,7 +24,7 @@
 
 body {
     display: flexbox;
-    align-items: center;
+    align-items: var(--mid);
     margin-left: auto;
     margin-right: auto;
     max-width: 375px;
@@ -152,13 +154,15 @@ ul li a {
 a:hover {
     color: #f2f2f2;
     cursor: pointer;
-    zoom: 110%;
+    zoom: var(--zoom);
 }
 
 h3 {
     text-align: var(--left);;
     color: var(--main);
 }
+
+/* STARTING MAIN CSS */
 
 main {
     border-top: var(--border);
@@ -199,3 +203,34 @@ section p {
     font-size: 12px;
     text-align: var(--left);
 }
+
+/* Work History CSS */
+
+div .card-container {
+    margin: 5px;
+    padding: 5px;
+}
+
+div .card-image {
+  max-width: 120px;
+  opacity: var(--opac);
+}
+
+/* Certifications CSS */ 
+
+div .certification-container {
+  display: grid;
+  grid-template-columns: 2 ;
+}
+
+div .certification image {
+  filter: sepia(50%);
+}
+
+div .certification image:hover {
+    filter: none;
+    transition: all 1s ease;
+}
+
+/* END MAIN CSS */
+

@@ -1,4 +1,47 @@
 $(document).ready(function() {
+
+    // PROTOTYPING FOR EACH CATEGORY //
+
+    /////////// LIKES //////////////////
+
+    // const myLikes = {
+
+    //     likePics: ['./pictures/weights.jpg','./pictures/sushi.avif','./pictures.book.jpg','./pictures/travel.jpg'],
+
+    //     likeCaption: ["Lifting Weights!","Sushi!","Reading! Everything From Current Events To Coding!","Travel! Have Been All Over Florida!"],
+    // };
+
+    ///////////////// WORK HISTORY //////////////////
+
+    //  const workHistory = {
+
+    //     jobPics: [job1,job2,job3],
+
+    //     jobDescription: ["lorem ipsum","lorem ipsum","lorem ipsum"],
+
+    // };
+
+    //////////////// CERTIFICATIONS ////////////////
+
+    // const certifications = {
+    //     images: ["html5.jpg","css3.jpg","bootstrap.jpg","javaScript.jpg","jQuery.jpg","sql/mysql.jpg","git.jpg","smoke/snapshot-testing.jpg","postman.jpg","mongo-db.jpg","prisma.jpg","python.jpg","java.jpg","csharp.jpg"],
+
+    //     certCaption: [`<p>${certifications.disciplines[i].value}</p>`],
+
+    //     disciplines: ["HTML5","CSS3","BootStrap","JavaScript","jQuery","SQL/MySQL","Git","Smoke/Snapshot testing","Postman","MongoDB","Prisma","Python","Java","Csharp"],
+
+    // };
+
+    ////////////////// PROJECTS /////////////////////
+
+    // const projects = {
+
+    //     projectThumbnail: ['pic1','pic2','pic3','pic4'],
+
+    //     projectDescription: ['lorem ipsum','lorem ipsum','lorem ipsum','lorem ipsum']
+    // };
+
+
     
     $("header").html(
         `
@@ -6,7 +49,7 @@ $(document).ready(function() {
             <br>
             <div class="wrapper">
                 <h2>My Portfolio</h2>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <div class="icon nav-icon-6">
                     <span></span>
                     <span></span>
