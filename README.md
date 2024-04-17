@@ -6,3 +6,5 @@ Portfolio for Technical Employment
 ![preview pic](https://github.com/cloudflips32/portfolio-2024/assets/64573965/ffcc7ccd-786a-447c-bac7-90a4e1f58ab1)
 
 04/16/2024- Foundational prototyping created for each portfolio category.
+
+![preview pic -prototype](C:\Users\cloud\OneDrive\Desktop\tech-apps\projects\portfolio\pictures\prototyping-pic.png)
